@@ -84,11 +84,9 @@ export VPCLOUD_CLIENT_SECRET=
 Please follow the [installation procedure](#installation--usage) and then run the following:
 
 ```python
-
 import vpcloud_client
 from vpcloud_client.rest import ApiException
 from pprint import pprint
-
 # Defining the host is optional and defaults to https://api.sea1.voltagepark.com
 # See configuration.py for a list of all supported configuration parameters.
 configuration = vpcloud_client.Configuration(
@@ -110,16 +108,14 @@ configuration = vpcloud_client.Configuration(
 with vpcloud_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = vpcloud_client.FleetsApi(api_client)
-    fleet_id = '900e8eac-2b1f-421f-a635-72556268b41f' # str | Fleet identifier
 
     try:
-        # Get fleet details
-        api_response = api_instance.get_fleet(fleet_id)
-        print("The response of FleetsApi->get_fleet:\n")
+        # List your fleets
+        api_response = api_instance.list_fleets()
+        print("The response of FleetsApi->list_fleets:\n")
         pprint(api_response)
     except ApiException as e:
-        print("Exception when calling FleetsApi->get_fleet: %s\n" % e)
-
+        print("Exception when calling FleetsApi->list_fleets: %s\n" % e)
 ```
 
 ## Documentation for API Endpoints
