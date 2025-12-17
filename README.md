@@ -1,4 +1,4 @@
-# vpcloud-client
+# VP Cloud SDK
 
  ⚠️ **BETA PREVIEW**: This API is currently in beta and is subject to changes. Features, endpoints, request/response formats, and functionality may be modified as we continue to improve the service. 
 
@@ -22,14 +22,14 @@ Python 3.9+
 Install directly using [uv](https://github.com/astral-sh/uv):
 
 ```sh
-uv pip install git+https://github.com/voltagepark/public-vp-cloud-sdk.git
+uv pip install git+https://github.com/voltagepark/vp-cloud-sdk.git
 ```
 
 Or, clone the repository and:
 
 ```sh
-git clone https://github.com/voltagepark/public-vp-cloud-sdk.git
-cd public-vp-cloud-sdk
+git clone https://github.com/voltagepark/vp-cloud-sdk.git
+cd vp-cloud-sdk
 uv sync
 ```
 
@@ -43,9 +43,9 @@ import vpcloud_client
 If the python package is hosted on a repository, you can install directly using:
 
 ```sh
-pip install git+https://github.com/voltagepark/public-vp-cloud-sdk.git
+pip install git+https://github.com/voltagepark/vp-cloud-sdk.git
 ```
-(you may need to run `pip` with root permission: `sudo pip install git+https://github.com/voltagepark/public-vp-cloud-sdk.git`)
+(you may need to run `pip` with root permission: `sudo pip install git+https://github.com/voltagepark/vp-cloud-sdk.git`)
 
 Then import the package:
 ```python
