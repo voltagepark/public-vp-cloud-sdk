@@ -1,0 +1,175 @@
+Third-Party Licenses
+====================
+
+This software includes the following third-party dependencies:
+
+Runtime Dependencies:
+--------------------
+- urllib3 (>=2.1.0,<3.0.0)
+  License: MIT License
+  Copyright: Copyright (c) 2008-2023 Andrey Petrov and contributors
+  https://github.com/urllib3/urllib3
+
+- python-dateutil (>=2.8.2)
+  License: Apache License 2.0 / BSD 3-Clause License (Dual Licensed)
+  Copyright: Copyright (c) 2003-2011, Gustavo Niemeyer
+  https://github.com/dateutil/dateutil
+
+- httpx (>=0.28.1)
+  License: BSD 3-Clause License
+  Copyright: Copyright (c) 2019, Tom Christie
+  https://github.com/encode/httpx
+
+- pydantic (>=2)
+  License: MIT License
+  Copyright: Copyright (c) 2017, Samuel Colvin
+  https://github.com/pydantic/pydantic
+
+- typing-extensions (>=4.7.1)
+  License: Python Software Foundation License
+  Copyright: Copyright (c) Python Software Foundation
+  https://github.com/python/typing_extensions
+
+Development/Test Dependencies:
+------------------------------
+- pytest (>=7.4.0)
+  License: MIT License
+  Copyright: Copyright (c) Holger Krekel and others
+  https://github.com/pytest-dev/pytest
+
+- pytest-cov (>=4.1.0)
+  License: MIT License
+  Copyright: Copyright (c) 2010-2013, Marc Schlaich
+  https://github.com/pytest-dev/pytest-cov
+
+- pytest-mock (>=3.11.0)
+  License: MIT License
+  Copyright: Copyright (c) 2015, Bruno Oliveira
+  https://github.com/pytest-dev/pytest-mock
+
+- pytest-asyncio (>=0.21.0)
+  License: Apache License 2.0
+  Copyright: Copyright (c) 2016, Tin Tvrtković
+  https://github.com/pytest-dev/pytest-asyncio
+
+- pytest-timeout (>=2.1.0)
+  License: MIT License
+  Copyright: Copyright (c) 2011-2013, Floris Bruynooghe
+  https://github.com/pytest-dev/pytest-timeout
+
+- responses (>=0.23.0)
+  License: Apache License 2.0
+  Copyright: Copyright (c) 2013-2016, David Cramer
+  https://github.com/getsentry/responses
+
+- freezegun (>=1.2.0)
+  License: Apache License 2.0
+  Copyright: Copyright (c) 2012, Steve Pulec
+  https://github.com/spulec/freezegun
+
+- tox (>=3.9.0)
+  License: MIT License
+  Copyright: Copyright (c) 2010-2020, Holger Krekel
+  https://github.com/tox-dev/tox
+
+- flake8 (>=4.0.0)
+  License: MIT License
+  Copyright: Copyright (c) 2010-2011, Tarek Ziadé
+  https://github.com/PyCQA/flake8
+
+- mypy (>=1.5)
+  License: MIT License
+  Copyright: Copyright (c) 2012-2021, Jukka Lehtosalo and contributors
+  https://github.com/python/mypy
+
+- types-python-dateutil (>=2.8.19.14)
+  License: MIT License
+  Copyright: Copyright (c) Python Software Foundation
+  https://github.com/python/typeshed
+
+Transitive Dependencies:
+-----------------------
+The following packages are transitive dependencies (dependencies of dependencies):
+
+- certifi (from httpx/urllib3)
+  License: Mozilla Public License 2.0 (MPL 2.0)
+  Copyright: Copyright (c) Kenneth Reitz
+  https://github.com/certifi/python-certifi
+  Note: MPL 2.0 is compatible with Apache 2.0 but requires attribution.
+
+- idna (from httpx)
+  License: BSD License
+  Copyright: Copyright (c) Kim Davies
+  https://github.com/kjd/idna
+
+- anyio (from httpx)
+  License: MIT License
+  Copyright: Copyright (c) Alex Grönholm
+  https://github.com/agronholm/anyio
+
+- httpcore (from httpx)
+  License: BSD-3-Clause License
+  Copyright: Copyright (c) Tom Christie
+  https://github.com/encode/httpcore
+
+- h11 (from httpx/httpcore)
+  License: MIT License
+  Copyright: Copyright (c) Nathaniel J. Smith
+  https://github.com/python-hyper/h11
+
+- h2 (from httpx)
+  License: MIT License
+  Copyright: Copyright (c) Cory Benfield
+  https://github.com/python-hyper/h2
+
+- charset-normalizer (from httpx)
+  License: MIT License
+  Copyright: Copyright (c) Ahmed R. TAHRI
+  https://github.com/jawah/charset_normalizer
+  Note: Replaces chardet (LGPL) - httpx uses this instead.
+
+- brotli / brotlicffi (from httpx/urllib3)
+  License: MIT License
+  Copyright: Various contributors
+  https://github.com/google/brotli
+
+- six (from python-dateutil)
+  License: MIT License
+  Copyright: Copyright (c) Benjamin Peterson
+  https://github.com/benjaminp/six
+
+- annotated-types (from pydantic)
+  License: MIT License
+  Copyright: Copyright (c) Adrian Garcia Badaracco, Samuel Colvin, Zac Hatfield-Dodds
+  https://github.com/annotated-types/annotated-types
+
+- pydantic-core (from pydantic)
+  License: MIT License
+  Copyright: Copyright (c) Pydantic contributors
+  https://github.com/pydantic/pydantic-core
+
+- typing-inspection (from pydantic)
+  License: MIT License
+  Copyright: Copyright (c) Victorien Plot
+  https://github.com/pydantic/typing-inspection
+
+- email-validator (from pydantic)
+  License: MIT License
+  Copyright: Copyright (c) Joshua Tauberer
+  https://github.com/JoshData/python-email-validator
+
+- tzdata (from pydantic/python-dateutil)
+  License: Apache Software License
+  Copyright: Copyright (c) Python Software Foundation
+  https://github.com/python/tzdata
+
+- pytz (from python-dateutil, optional)
+  License: MIT License
+  Copyright: Copyright (c) Stuart Bishop
+  https://github.com/stub42/pytz
+
+All dependencies listed above are compatible with the Apache License 2.0 under which this software is distributed.
+
+Note: This list includes direct dependencies and their primary transitive dependencies. For a complete list of all transitive dependencies in your environment, run: pip list
+
+For full license texts, please refer to the respective project repositories or PyPI package pages.
