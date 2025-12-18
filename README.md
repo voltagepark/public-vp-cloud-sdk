@@ -33,34 +33,6 @@ Then import the package:
 import vpcloud_client
 ```
 
-### pip install
-
-If the python package is hosted on a repository, you can install directly using:
-
-```sh
-pip install git+https://github.com/voltagepark/vp-cloud-sdk.git
-```
-(you may need to run `pip` with root permission: `sudo pip install git+https://github.com/voltagepark/vp-cloud-sdk.git`)
-
-Then import the package:
-```python
-import vpcloud_client
-```
-
-### Setuptools
-
-Install via [Setuptools](http://pypi.python.org/pypi/setuptools).
-
-```sh
-python setup.py install --user
-```
-(or `sudo python setup.py install` to install the package for all users)
-
-Then import the package:
-```python
-import vpcloud_client
-```
-
 ### Tests
 
 Execute `pytest` to run the tests.
