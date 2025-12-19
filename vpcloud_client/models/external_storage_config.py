@@ -3,7 +3,7 @@
 """
     Voltage Park Cloud API
 
-      ⚠️ **BETA PREVIEW**: This API is currently in beta and is subject to changes. Features, endpoints, request/response formats, and functionality may be modified as we continue to improve the service.      Bare Metal and VMs provisioning and managing service.
+      ⚠️ **BETA PREVIEW**: This API is currently in beta and is subject to changes. Features, endpoints, request/response formats, and functionality may be modified as we continue to improve the service.      Bare Metal and VM provisioning and management service.
 
     The version of the OpenAPI document: 1.0.0-beta
     Contact: support@voltagepark.com
